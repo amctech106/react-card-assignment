@@ -24,8 +24,8 @@ justify-content: center;
 
  
 .cards{
-width: 770px;
-height: 300px;
+width: 48%;
+  height: 50%;
 border: 1px solid #b1afaf;
 border-radius: 10px;
 
@@ -59,70 +59,10 @@ p{
  
 }
 
-/* --- آپ کی اصل CSS (بالکل سیم) --- */
-body{
-  margin: 0;
-  padding: 5px 35px; 
-  background-color: #FDFDFD;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.heading{
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  background-color: #C3DBFD;
-  padding: 40px ;
-  border-radius: 10px;
-  color: #041B77;
-}
 
-.main{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-}
-
-.cards{
-  width: 770px;
-  height: 300px;
-  border: 1px solid #b1afaf;
-  border-radius: 10px;
-}
-
-div.names{
-  background-color: #E6EFFE;
-  padding: 10px 0px 30px 50px;
-  font-weight: 900;
-  font-size: 40px;
-  margin-bottom: 20px;
-  margin-top: 0px;
-}
-
-span.keys{
-  font-weight: 600;
-  font-size: xx-large;
-  color: #474649;
-  line-height: 20px ;
-  margin-top: 0%;
-  margin-right: 20px;
-  padding: 20px;
-}
-
-p{
-  font-size:xx-large;
-  line-height: 20px;
-  margin-top: 0%;
-  padding-left: 50px;
-}
+/* ریسپانسو کا سیکشن یہاں سے شروع ہورہا ہے  */
 
 
-/* =========================================
-   RESPONSIVE CSS (Media Queries) یہ سی ایس ایس اے آئی سے لکھوائی ہے ڈیسک ٹاپ والی خود لکھی ہے 
-   ========================================= */
-
-/* ٹیبلٹ اور چھوٹی لیپ ٹاپ اسکرینز کے لیے (900px یا اس سے کم) */
 @media (max-width: 900px) {
   body {
     padding: 5px 20px;
@@ -166,7 +106,8 @@ p{
   }
 }
 
-/* موبائل اسکرینز کے لیے (600px یا اس سے کم) */
+/* چھ سو پکسل والی یا اس سے کم ڈوائسز کے لیے  */
+
 @media (max-width: 600px) {
   body {
     padding: 5px 12px;
@@ -199,7 +140,8 @@ p{
   }
 }
 
-/* بہت چھوٹی موبائل اسکرینز کے لیے (400px یا اس سے کم) */
+/* چارسو پکسل والی ڈوائسز کےلیے  */
+
 @media (max-width: 400px) {
   .heading {
     font-size: 22px;

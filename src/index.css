@@ -26,8 +26,12 @@ justify-content: center;
  
 .cards{
 width: 48%;
+<<<<<<< HEAD
 height: 50%;
 background-color: #D2CF9A;
+=======
+  height: 50%;
+>>>>>>> 4dc42a3db49022ade7cc7ab4c063baf39edfc1ef
 border: 1px solid #b1afaf;
 border-radius: 10px;
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -65,9 +69,60 @@ p{
 }
 
 
+<<<<<<< HEAD
 /* ریسپانسو چھ سو والی اسکرین کے لیے یا اس سے کم  */
 
 
+=======
+/* ریسپانسو کا سیکشن یہاں سے شروع ہورہا ہے  */
+
+
+@media (max-width: 900px) {
+  body {
+    padding: 5px 20px;
+  }
+
+  .heading {
+    font-size: 42px;
+    padding: 28px 20px;
+  }
+
+  .main {
+    gap: 20px;
+  }
+
+  .cards {
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  div.names {
+    font-size: 32px;
+    padding: 15px 20px 20px 30px;
+  }
+
+  span.keys {
+    font-size: x-large;
+    padding: 0;
+    margin-right: 10px;
+    line-height: 1.4;
+  }
+
+  p {
+    font-size: x-large;
+    line-height: 1.5;
+    padding: 0 20px 0 30px;
+    margin-bottom: 12px;
+    word-wrap: break-word;
+  }
+}
+
+/* چھ سو پکسل والی یا اس سے کم ڈوائسز کے لیے  */
+
+>>>>>>> 4dc42a3db49022ade7cc7ab4c063baf39edfc1ef
 @media (max-width: 600px) {
   body {
     padding: 5px 12px;
@@ -100,7 +155,11 @@ p{
   }
 }
 
+<<<<<<< HEAD
 /*چار سو یا اس سے کم والی کے لیے */
+=======
+/* چارسو پکسل والی ڈوائسز کےلیے  */
+>>>>>>> 4dc42a3db49022ade7cc7ab4c063baf39edfc1ef
 
 @media (max-width: 400px) {
   .heading {
